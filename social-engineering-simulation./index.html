@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sosyal Mühendislik Simülasyonu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Sosyal Mühendislik Simülasyonu</h1>
+        <div class="scenario">
+            <h2>Bir e-posta aldınız, şüpheli bir bağlantı var. Ne yaparsınız?</h2>
+        </div>
+        <div class="options">
+            <button onclick="checkAnswer('Yanıtla')">Yanıtla</button>
+            <button onclick="checkAnswer('Görmezden Gel')">Görmezden Gel</button>
+        </div>
+        <div class="result">
+            <h2>Puan: <span id="score">0</span></h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
